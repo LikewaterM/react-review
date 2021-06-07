@@ -1,0 +1,13 @@
+.div1{
+	width: 500px;
+	height: 350px;
+	border: 1px solid gainsboro;
+}
+
+.div2{
+	display: block;
+}
+
+.div3{
+	display: none;
+}
