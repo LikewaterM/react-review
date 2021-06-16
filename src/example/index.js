@@ -12,8 +12,12 @@ class App extends Component{
 			type:'add'
 		})
 	}
+	componentDidMount(){
+		console.log('componentDidMount:')
+	}
 	render(){
-		console.log(store.getState(),'store.getState()')
+		console.log('render:')
+		// console.log(store.getState(),'store.getState()')
 		return(
 		  <div>
 		    <button onClick={this.subtractionEv}>-</button>
