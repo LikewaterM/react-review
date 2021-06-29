@@ -1,0 +1,192 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #F9FBFC;
+    position: relative;
+    
+}
+.header{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #3CB0DE;
+    color: white;
+    position: relative;
+}
+
+.header-title{
+    margin: 0;
+    display: inline;
+    font-size: 20px;
+}
+
+.header-img{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    /* vertical-align: middle; */
+    right: 20px;
+    top: 30%;
+    position: absolute;
+}
+
+.addInput{
+    margin: 5px 20px;
+    background-color: white;
+    border-bottom: 1px solid gainsboro;
+    /* border-top: 1px solid white; */
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    height: 36px;
+    /* box-shadow: gainsboro 0px 0px 1px 1px; */
+    padding:3px 10px;
+    /* max-width: 345px; */
+    position: fixed;
+    width: 85%;
+    z-index: 10;
+}
+
+.addInput-input{
+    height: 32px;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+    width: 77%;
+    /* max-width: 260px; */
+    margin-right: 10px;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+.addInput-btn{
+    height: 30px;
+    vertical-align: middle;
+    width: 19%;
+    background-color: #3CB0DE;
+    color: white;
+    border: 1px solid gainsboro;
+    border-radius: 3px;
+}
+
+.todolist{
+    padding: 5px 20px;
+    list-style-type: none;
+}
+
+.todolist-btnGroup{
+    display: inline-block;
+    position: absolute;
+    right: 20px;
+    line-height: 45px;
+}
+
+.todolist-li{
+    height: 45px;
+    border-bottom: 1px solid gainsboro;
+}
+
+.todolist-span{
+    line-height: 45px;
+    font-size: 14px;
+    margin-left: 5px;
+    max-width: 48%;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.todolist-input{
+    /* vertical-align: middle; */
+    width: 15px;
+    height: 15px;
+    top: -13px;
+    position: relative;
+}
+
+.todolist-btnGroup button{
+    vertical-align: middle;
+    margin-left: 5px;
+    width: 45px;
+    height: 25px;
+    
+    color: white;
+    border: 0px solid gainsboro;
+    z-index: 0;
+}
+
+.todolist-btn-delete{
+    background-color: red;
+}
+
+.todolist-btn-edit{
+    background-color: green;
+}
+
+.todolist-btn-check{
+    background-color: #3CB0DE;
+}
+
+.modal-shadow{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(131, 125, 125, 0.5);
+    position: absolute;
+    z-index: 20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal{
+    width: 280px;
+    height: 210px;
+    background-color: white;
+    position: relative;
+}
+
+.modal-title{
+    width: 100%;
+    line-height: 30px;
+    /* background-color: #3CB0DE; */
+    text-align: center;
+    padding: 3px 0;
+    color: white;
+    border-radius: 2px;
+}
+
+.checkModal{
+    padding: 8px;
+    height: 100%;
+}
+
+.checkModal-content{
+    margin: 2px;
+}
+
+.modal-btn{
+    width: 90%;
+    height: 28px;
+    /* background-color: #3CB0DE; */
+    color: white;
+    border: 0px solid gainsboro;
+    position: absolute;
+    bottom: 8px;
+    left: 14px;
+    border-radius: 2px;
+}
+
+.span1{
+    font-size: 12px;
+    word-wrap:break-word;
+    word-break:normal;
+}
+
+.textarea{
+    vertical-align: text-top;
+    height: 50px;
+    width: 200px;
+}

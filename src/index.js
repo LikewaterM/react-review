@@ -6,7 +6,9 @@ import './index.css';
 // import Tcompon from './redux-thunk/index'
 // import Thunk2 from './react-thunk2';
 // import App from './immutable/index'
-import App from './redux-immutable'
+// import App from './redux-immutable'
+// import App from './react-lazy';
+import App from './react-hooks'
 import store from '../src/reactRedux/store'
 import { Provider } from 'react-redux'
 
